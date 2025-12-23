@@ -1,0 +1,14 @@
+package test:
+ok  	poker	(cached)	coverage: 85.2% of statements
+
+
+package benchmarks:
+goos: windows
+goarch: amd64
+pkg: poker
+cpu: AMD Ryzen 5 3600X 6-Core Processor             
+BenchmarkHandEvaluation-12    	 2505784	       471.3 ns/op	     192 B/op	       9 allocs/op
+BenchmarkGetBestHand-12       	   41617	     29136 ns/op	   14744 B/op	     456 allocs/op
+PASS
+coverage: 54.6% of statements
+ok  	poker	3.538s
